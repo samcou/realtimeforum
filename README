@@ -1,14 +1,40 @@
+# Project Name
+Real Time Forum
 
-Hi :))
+## Table of Contents
 
+- [Installation](#installation)
+- [Usage](#usage)
 
+## Installation
 
-To run this project, navigate to the  backend folder and run the command "go run main.go"
+1. **Backend Setup:**
+   - Navigate to the `backend` folder:
+     ```sh
+     cd backend
+     ```
+   - Run the Go application:
+     ```sh
+     go run main.go
+     ```
 
-Then navigate to the frontend folder with the html and js files and run the command "npm install"
+2. **Frontend Setup:**
+   - Navigate to the `frontend` folder:
+     ```sh
+     cd frontend
+     ```
+   - Install the necessary dependencies:
+     ```sh
+     npm install
+     ```
 
-This should install all dependencies needed for the project.
+3. **Start the Python Server:**
+   - Run a Python server to serve the frontend files:
+     ```sh
+     python -m http.server 8000
+     ```
 
-Next open the html file using a live server.
+## Usage
 
-Thats all!
+That's all! Your project should now be up and running.
+
